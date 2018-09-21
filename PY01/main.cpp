@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <ctime>
 
 using namespace std;
 
@@ -55,6 +56,7 @@ void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedi
 
 }
 
+
 void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pedido[3]){
 
     float tiempo_total = 0,temporal1, suma = 0;
@@ -80,6 +82,27 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
     }
 
     cout << "El tiempo de espera total es : " << tiempo_total << " horas." << endl;
+    cout << "\n";
+
+    // Calculo de la fecha de ENTREGA
+
+    int dia,mes, anno, hoy_dia, hoy_mes, hoy_anno, dias_mes;
+
+    time_t t = time(0); // TIEMPO ACTUAL
+    tm* now = localtime(&t);
+
+
+    for (int l = 0; l < 3; ++l) {
+        dia = int((tiempos_pedido[l]/24));
+        if(tiempos_pedido[l]/24!=dia)
+            dia++;
+        cout << "Recoger el pedido de " << tipo_pedido[l] << " en " << dia << " dias.";
+
+
+    }
+
+
+
 
 
 
