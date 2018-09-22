@@ -100,12 +100,25 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
 
 
     }
+    
+}
 
 
-
-
-
-
+void calculo_materia_prima(){
+    float hilo_jersey;
+    float hilo_pique;
+    float hilo_franela;
+    
+    //hilo_jersey= kgtela/0.7;
+    //hilo_pique= kgtela/0.5;
+    //hilo_franela= kgtela/0.3;
+    
+}
+    
+//kg_tela/rendimiento
+    
+void calculo_costos(){
+    
 }
 
 int main() {
