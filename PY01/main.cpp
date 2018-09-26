@@ -2,6 +2,7 @@
 #include <string>
 #include <iomanip>
 #include <ctime>
+#include <string>
 
 using namespace std;
 
@@ -56,6 +57,92 @@ void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedi
 
 }
 
+int dias_en_mes(int mes){
+
+    int dias_x_mes;
+
+    switch (mes)
+    {
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            dias_x_mes = 30;
+            break;
+
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            dias_x_mes = 31;
+            break;
+
+        case 2:{
+            if(mes%4==0 and mes&100!=0 or mes%400==0)
+                dias_x_mes = 29;
+            else
+                dias_x_mes = 28;
+            break;
+        }
+
+    }
+
+    return dias_x_mes;
+}
+
+string dia_a_fecha(int dias_a_sumar) {
+
+    //FECHA ACTUAL
+
+    time_t t = time(0);   // get time now
+    tm* now = localtime(&t);
+
+    int anno_actual, mes_actual, dia_actual;
+    int dias_x_mes, dia, mes, anno;
+
+    anno_actual = (now->tm_year + 1900);
+    mes_actual = (now->tm_mon + 1);
+    dia_actual = (now->tm_mday);
+
+    dia = dia_actual;
+    mes = mes_actual;
+    anno = anno_actual;
+
+
+    for (int i=0;i<dias_a_sumar;i++)
+    {
+        dia++;
+        if (dia > dias_en_mes(mes) )
+        {
+            dia = 1;
+            mes++;
+            if (mes==13)
+            {
+                mes = 1;
+                anno++;
+            }
+        }
+    }
+
+    string resultado;
+
+    string s_dia = to_string(dia);
+    string s_mes = to_string(mes);
+    string s_anno = to_string(anno);
+
+
+    resultado = s_dia + '-' + s_mes + '-' + s_anno;
+
+
+    return resultado;
+}
+
+
+
+
 
 void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pedido[3]){
 
@@ -68,7 +155,7 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
         for (int j = 0; j < 3; ++j) {
             for (int i = 0; i < 4; i++) {
 
-                temporal1 = velocidad[k][j][i] * pedido[k][j];
+                temporal1 = pedido[k][j] / velocidad[k][j][i];
                 suma += temporal1;
 
             }
@@ -88,18 +175,19 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
 
     int dia,mes, anno, hoy_dia, hoy_mes, hoy_anno, dias_mes;
 
-    time_t t = time(0); // TIEMPO ACTUAL
-    tm* now = localtime(&t);
+
 
 
     for (int l = 0; l < 3; ++l) {
         dia = int((tiempos_pedido[l]/24));
         if(tiempos_pedido[l]/24!=dia)
             dia++;
-        cout << "Recoger el pedido de " << tipo_pedido[l] << " en " << dia << " dias.";
+        cout << "Recoger el pedido de " << tipo_pedido[l] << " el " << dia_a_fecha(dia) << ", en " << dia << " dias." <<  endl;
 
 
     }
+
+
     
 }
 

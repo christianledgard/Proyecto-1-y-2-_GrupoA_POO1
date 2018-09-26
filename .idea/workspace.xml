@@ -13,6 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c936fa-887f-47e9-bdd0-5fbd1d1ec9aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/untitled" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PY01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/main.cpp" afterDir="false" />
     </list>
@@ -29,13 +32,15 @@
     <session id="-1506559995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,28 +57,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3749" />
+          <entry key="cpp" value="4382" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="5" />
-          <entry key="ObjectiveC" value="3749" />
+          <entry key="ObjectiveC" value="4382" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py01/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="202">
+              <caret line="184" column="116" selection-start-line="184" selection-start-column="116" selection-end-line="184" selection-end-column="116" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#99#778#0" />
+                <element signature="e#780#1157#0" />
+                <element signature="e#1177#1740#0" />
+                <element signature="e#1746#2618#0" />
+                <element signature="e#2294#2497#0" />
+                <element signature="e#2530#2559#0" />
+                <element signature="e#2561#3475#0" />
               </folding>
             </state>
           </provider>
@@ -98,7 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -108,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +184,10 @@
       <workItem from="1537312221711" duration="168000" />
       <workItem from="1537312694862" duration="710000" />
       <workItem from="1537392759025" duration="16174000" />
-      <workItem from="1537539152638" duration="1886000" />
+      <workItem from="1537539152638" duration="3358000" />
+      <workItem from="1537971748445" duration="100000" />
+      <workItem from="1537971939064" duration="542000" />
+      <workItem from="1537972976902" duration="3955000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1">
       <created>1537312263942</created>
@@ -195,11 +210,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537403822920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Avance 1">
+      <created>1537544124917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537544124918</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19134000" />
+    <option name="totallyTimeSpent" value="25203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,9 +233,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09127625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,10 +280,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="202">
+          <caret line="184" column="116" selection-start-line="184" selection-start-column="116" selection-end-line="184" selection-end-column="116" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#99#778#0" />
+            <element signature="e#780#1157#0" />
+            <element signature="e#1177#1740#0" />
+            <element signature="e#1746#2618#0" />
+            <element signature="e#2294#2497#0" />
+            <element signature="e#2530#2559#0" />
+            <element signature="e#2561#3475#0" />
           </folding>
         </state>
       </provider>

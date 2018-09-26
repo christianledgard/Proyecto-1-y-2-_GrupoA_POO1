@@ -35,7 +35,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeTestCXXCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeTestCompilerCommon.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeUnixFindMake.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/Compiler/AppleClang-C-FeatureTests.cmake"
@@ -97,9 +96,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "CMakeFiles/3.12.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.12.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.12.1/CMakeSystem.cmake"
+  "CMakeFiles/3.12.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
   )
@@ -112,11 +111,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.12.1/CMakeSystem.cmake"
-  "CMakeFiles/3.12.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.12.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.12.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.12.1/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeSystem.cmake"
+  "CMakeFiles/3.12.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
