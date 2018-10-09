@@ -8,11 +8,11 @@ using namespace std;
 
 
 
-void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3]){
+void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3], float Kg_PRENDAS[3]){
 
     cout << "---- Ingrese su pedido a continuación: ----" << endl;
 
-    int cantidad; float kg_prenda;
+    int cantidad; float kg_prenda, kg_jersey=0, kg_pique=0, kg_franela=0;
 
     for (int i = 0; i < 3 ; ++i) {
 
@@ -28,6 +28,8 @@ void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedid
             cin >> cantidad;
             cout << "Kg/Prenda==> ";
             cin >> kg_prenda;
+            Kg_PRENDAS[j]+=kg_prenda;
+
             cout << "\n";
 
             pedido[i][j] = cantidad * kg_prenda;
@@ -192,21 +194,37 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
 }
 
 
-void calculo_materia_prima(){
+void calculo_materia_prima(float Kg_PRENDAS[3], float Kg_Hilos[3]){
     float hilo_jersey;
     float hilo_pique;
     float hilo_franela;
+
+
     
-    //hilo_jersey= kgtela/0.7;
-    //hilo_pique= kgtela/0.5;
-    //hilo_franela= kgtela/0.3;
-    
+    hilo_jersey= Kg_PRENDAS[0]/0.7;
+    Kg_Hilos[0]=hilo_jersey;
+    hilo_pique= Kg_PRENDAS[1]/0.5;
+    Kg_Hilos[0]=hilo_pique;
+    hilo_franela= Kg_PRENDAS[2]/0.3;
+    Kg_Hilos[0]=hilo_franela;
+
+    cout<<"Seran necesarios "<<hilo_jersey<<" Kg de hilo de Jersey."<<endl;
+    cout<<"Seran necesarios "<<hilo_pique<<" Kg de hilo de Pique."<<endl;
+    cout<<"Seran necesarios "<<hilo_franela<<" Kg de hilo de Franela."<<endl;
+
 }
+
     
-//kg_tela/rendimiento
-    
-void calculo_costos(){
-    
+void calculo_costos(float pedido[3][3], float Kg_PRENDAS[3], float Kg_Hilos[3]){
+    //Precios de Venta - Costos de Produccion
+    float Costo_Hilos=10;
+
+    //Orden de Precio de venta: Polos, camisas y cuellos
+    float Costos_Jersey[3]={30, 50, 5};
+    float Costos_Pique[3]={60, 75, 10};
+    float Costos_Franela [3]={60, 80, 15};
+
+
 }
 
 int main() {
@@ -215,6 +233,11 @@ int main() {
 
     string tipo_prenda[3] = {"Polo", "Camisa", "Cuellos"};
     string tipo_pedido[3] = {"Jersy", "Pique", "Franela"};
+
+    float Kg_PRENDAS[3]={0,0,0};
+    float Kg_Hilos[3];
+
+
 
     float velocidad[3][3][4] = {
 
@@ -241,12 +264,28 @@ int main() {
     };
 
 
-    ingresar_pedidos(pedido, tipo_prenda, tipo_pedido);
+    ingresar_pedidos(pedido, tipo_prenda, tipo_pedido, Kg_PRENDAS);
     visualizar_pedido(pedido, tipo_prenda, tipo_pedido);
 
     calculo_tiempos(pedido,velocidad, tipo_pedido);
 
+    cout<<"\n";
+    calculo_materia_prima(Kg_PRENDAS, Kg_Hilos);
+    cout<<"\n";
+    calculo_costos(pedido,Kg_PRENDAS, Kg_Hilos);
+
+    //IMPRIMIR VISUALIZACION DEL PEDIDO COMO MATRIZ
+    // for (int i = 0; i < 3; ++i) {
+        //for (int j = 0; j < 3; ++j) {
+            //cout<<setw(3)<<pedido[i][j]<<setw(3);}
+            //cout<<endl;}
+
+    //        Polos      Camisas      Cuellos
+    //Jersey   0,0        0,1            0,2
+    //Pique    1,0        1,1            1,2
+    //Franela  2,0        2,1            2,2
 
 
-    return 0;
+
+            return 0;
 }
