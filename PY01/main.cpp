@@ -204,9 +204,9 @@ void calculo_materia_prima(float Kg_PRENDAS[3], float Kg_Hilos[3]){
     hilo_jersey= Kg_PRENDAS[0]/0.7;
     Kg_Hilos[0]=hilo_jersey;
     hilo_pique= Kg_PRENDAS[1]/0.5;
-    Kg_Hilos[0]=hilo_pique;
+    Kg_Hilos[1]=hilo_pique;
     hilo_franela= Kg_PRENDAS[2]/0.3;
-    Kg_Hilos[0]=hilo_franela;
+    Kg_Hilos[2]=hilo_franela;
 
     cout<<"Seran necesarios "<<hilo_jersey<<" Kg de hilo de Jersey."<<endl;
     cout<<"Seran necesarios "<<hilo_pique<<" Kg de hilo de Pique."<<endl;
@@ -225,6 +225,44 @@ void calculo_costos(float pedido[3][3], float Kg_PRENDAS[3], float Kg_Hilos[3]){
     float Costos_Franela [3]={60, 80, 15};
 
 
+    float Costo_Total=0, Ingreso_Total=0;
+    float Ingreso_Jersey=0, Ingreso_Pique=0, Ingreso_Franela=0;
+
+
+    for (int k = 0; k < 3; ++k) {
+        Costo_Total+=Kg_Hilos[k]*Costo_Hilos;
+    }
+    for (int i = 0; i < 3 ; ++i) {
+        for (int j = 0; j < 3 ; ++j) {
+            if (i == 0) {
+                Ingreso_Jersey += (pedido[i][j]*Costos_Jersey[i]);
+            }
+            else if (i == 1) {
+                Ingreso_Pique += (pedido[i][j]*Costos_Pique[i]);
+            }
+            else if (i == 2) {
+                Ingreso_Franela += (pedido[i][j]*Costos_Franela[i]);
+            }
+        }
+    }
+
+    Ingreso_Total=(Ingreso_Franela+Ingreso_Jersey+Ingreso_Pique);
+    cout<<"El costo total por fabricar todas las prendas es: s/."<<Costo_Total<<endl;
+
+    cout<<"El ingreso por la venta de las prendas de Jersey es: s/."<<Ingreso_Jersey<<endl;
+    cout<<"El ingreso por la venta de las prendas de Pique es: s/."<<Ingreso_Pique<<endl;
+    cout<<"El ingreso por la venta de las prendas de Franela es: s/."<<Ingreso_Franela<<endl;
+    cout<<"El ingreso por la venta de todas las prendas fabricadas es: s/."<<Ingreso_Total<<endl;
+
+    float Ganancia;
+    Ganancia=Ingreso_Total-Costo_Total;
+    cout<<"La ganancia sera: s/."<<Ganancia<<endl;
+
+
+    //        Polos      Camisas      Cuellos
+    //Jersey   0,0        0,1            0,2
+    //Pique    1,0        1,1            1,2
+    //Franela  2,0        2,1            2,2
 }
 
 int main() {
