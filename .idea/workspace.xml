@@ -13,9 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c936fa-887f-47e9-bdd0-5fbd1d1ec9aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PY01/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/cmake-build-debug/untitled" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PY01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PY01/main.cpp" afterDir="false" />
     </list>
@@ -32,15 +29,18 @@
     <session id="-1506559995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,15 +57,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="4382" />
-          <entry key="txt" value="22" />
+          <entry key="cpp" value="6989" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="5" />
-          <entry key="ObjectiveC" value="4382" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="ObjectiveC" value="6989" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
     </session>
@@ -75,23 +75,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py01/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="184" column="116" selection-start-line="184" selection-start-column="116" selection-end-line="184" selection-end-column="116" />
+            <state relative-caret-position="352">
+              <caret line="365" column="15" selection-start-line="365" selection-start-column="15" selection-end-line="365" selection-end-column="15" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#99#778#0" />
-                <element signature="e#780#1157#0" />
-                <element signature="e#1177#1740#0" />
-                <element signature="e#1746#2618#0" />
-                <element signature="e#2294#2497#0" />
-                <element signature="e#2530#2559#0" />
-                <element signature="e#2561#3475#0" />
+                <element signature="e#117#895#0" />
+                <element signature="e#897#1274#0" />
+                <element signature="e#1276#1839#0" />
+                <element signature="e#1841#2709#0" />
+                <element signature="e#2711#3815#0" />
+                <element signature="e#3818#4388#0" />
+                <element signature="e#4395#6170#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Kg_PRENDAS</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +136,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,6 +145,116 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PY01/main.cpp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,7 +302,10 @@
       <workItem from="1537539152638" duration="3358000" />
       <workItem from="1537971748445" duration="100000" />
       <workItem from="1537971939064" duration="542000" />
-      <workItem from="1537972976902" duration="3955000" />
+      <workItem from="1537972976902" duration="4004000" />
+      <workItem from="1538056611424" duration="744000" />
+      <workItem from="1538607333062" duration="1478000" />
+      <workItem from="1539216001076" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1">
       <created>1537312263942</created>
@@ -217,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537544124918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dia a fecha DONE">
+      <created>1538004531596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538004531596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25203000" />
+    <option name="totallyTimeSpent" value="34553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,8 +359,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09127625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.093699515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +392,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba 1" />
     <MESSAGE value="Avance 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance 1" />
+    <MESSAGE value="Dia a fecha DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dia a fecha DONE" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
@@ -280,17 +407,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="184" column="116" selection-start-line="184" selection-start-column="116" selection-end-line="184" selection-end-column="116" />
+        <state relative-caret-position="352">
+          <caret line="365" column="15" selection-start-line="365" selection-start-column="15" selection-end-line="365" selection-end-column="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#99#778#0" />
-            <element signature="e#780#1157#0" />
-            <element signature="e#1177#1740#0" />
-            <element signature="e#1746#2618#0" />
-            <element signature="e#2294#2497#0" />
-            <element signature="e#2530#2559#0" />
-            <element signature="e#2561#3475#0" />
+            <element signature="e#117#895#0" />
+            <element signature="e#897#1274#0" />
+            <element signature="e#1276#1839#0" />
+            <element signature="e#1841#2709#0" />
+            <element signature="e#2711#3815#0" />
+            <element signature="e#3818#4388#0" />
+            <element signature="e#4395#6170#0" />
           </folding>
         </state>
       </provider>
