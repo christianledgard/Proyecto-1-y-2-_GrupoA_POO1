@@ -60,7 +60,7 @@ void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedi
 
 }
 
-int dias_en_mes(int mes){
+int dias_en_mes(int mes, int anno){
 
     int dias_x_mes;
 
@@ -84,7 +84,7 @@ int dias_en_mes(int mes){
             break;
 
         case 2:{
-            if(mes%4==0 and mes&100!=0 or mes%400==0)
+            if(anno%4==0 and anno&100!=0 or anno%400==0)
                 dias_x_mes = 29;
             else
                 dias_x_mes = 28;
@@ -118,7 +118,7 @@ string dia_a_fecha(int dias_a_sumar) {
     for (int i=0;i<dias_a_sumar;i++)
     {
         dia++;
-        if (dia > dias_en_mes(mes) )
+        if (dia > dias_en_mes(mes,anno))
         {
             dia = 1;
             mes++;
@@ -346,7 +346,7 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
             OrdenRecomendado[1]=l;
     }
 
-    cout << "El software recomienda piorizar las prendas por este orden: "<< endl;
+    cout << "El software recomienda priorizar las prendas por este orden: "<< endl;
 
 
     for (int m = 0; m < 3; ++m) {
