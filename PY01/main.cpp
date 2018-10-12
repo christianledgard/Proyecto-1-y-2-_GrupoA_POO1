@@ -358,13 +358,14 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
     cout << "-------- Cronograma de Produccion ----------" << endl;
     cout << "\n";
 
-    int tiempo_a_cuenta=0;
+    int tiempo_a_cuenta=0, dia_transcurrido=0;
+
 
     for (int n = 0; n < 3; ++n) {
 
-    cout << n+1 << ". "<< TipoPedido[int(OrdenRecomendado[n])] << " --- del "<< dia_a_fecha(tiempo_a_cuenta) << " al " << dia_a_fecha((Tiempo[int(OrdenRecomendado[n])])+tiempo_a_cuenta) << endl;
+    cout << n+1 << ". "<< TipoPedido[int(OrdenRecomendado[n])] << " --- del "<< dia_a_fecha(tiempo_a_cuenta+dia_transcurrido) << " al " << dia_a_fecha((Tiempo[int(OrdenRecomendado[n])])+tiempo_a_cuenta+dia_transcurrido) << endl;
     tiempo_a_cuenta += Tiempo[int(OrdenRecomendado[n])];
-
+    dia_transcurrido++;
     }
 
 }
