@@ -3,7 +3,6 @@
 #include <iomanip>
 #include <ctime>
 #include <string>
-#include <map>
 
 using namespace std;
 
@@ -84,7 +83,7 @@ int dias_en_mes(int mes, int anno){
             break;
 
         case 2:{
-            if(anno%4==0 and anno&100!=0 or anno%400==0)
+            if(anno%4==0 and anno%100!=0 or anno%400==0)
                 dias_x_mes = 29;
             else
                 dias_x_mes = 28;
