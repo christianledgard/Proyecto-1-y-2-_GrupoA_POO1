@@ -10,89 +10,6 @@
 
 using namespace std;
 
-void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3], float Kg_PRENDAS[3]){
-
-    unsigned int cantidad;
-    float kgPrenda;
-
-    cout << "---- Ingrese su pedido a continuación: ----" << endl;
-    //-----------------------------------------------------------------------
-    //-----------------------------------------------------------------------
-
-    cout << "Ingrese el pedido para Jersey:" << endl;
-
-    cout << "Polos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CJersey Jpolos(cantidad,kgPrenda);
-
-    cout << "Camisas:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CJersey Jcamisas(cantidad,kgPrenda);
-
-    cout << "Cuellos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CJersey Jcuellos(cantidad,kgPrenda);
-
-    //-----------------------------------------------------------------------
-
-    cout << "Ingrese el pedido para Pique:" << endl;
-
-    cout << "Polos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CPique Ppolos(cantidad,kgPrenda);
-
-    cout << "Camisas:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CPique Pcamisas(cantidad,kgPrenda);
-
-    cout << "Cuellos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CPique Pcuellos(cantidad,kgPrenda);
-
-    //-----------------------------------------------------------------------
-
-    cout << "Ingrese el pedido para Franela:" << endl;
-
-    cout << "Polos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CFranela Fpolos(cantidad,kgPrenda);
-
-    cout << "Camisas:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CFranela Fcamisas(cantidad,kgPrenda);
-
-    cout << "Cuellos:" << endl;
-    cout << "Cantidad (unidades)==> "; cin >> cantidad;
-    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
-
-    CFranela Fcuellos(cantidad,kgPrenda);
-
-
-}
-
-void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3]){
-
-    CJersey
-
-
-}
-
 int dias_en_mes(int mes, int anno){
 
     int dias_x_mes;
@@ -405,6 +322,76 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 
 int main() {
 
+    unsigned int cantidad;
+    float kgPrenda;
+
+    cout << "---- Ingrese su pedido a continuación: ----" << endl;
+    //-----------------------------------------------------------------------
+    //-----------------------------------------------------------------------
+
+    cout << "Ingrese el pedido para Jersey:" << endl;
+
+    cout << "Polos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CJersey Jpolos(cantidad,kgPrenda);
+
+    cout << "Camisas:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CJersey Jcamisas(cantidad,kgPrenda);
+
+    cout << "Cuellos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CJersey Jcuellos(cantidad,kgPrenda);
+
+    //-----------------------------------------------------------------------
+
+    cout << "Ingrese el pedido para Pique:" << endl;
+
+    cout << "Polos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CPique Ppolos(cantidad,kgPrenda);
+
+    cout << "Camisas:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CPique Pcamisas(cantidad,kgPrenda);
+
+    cout << "Cuellos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CPique Pcuellos(cantidad,kgPrenda);
+
+    //-----------------------------------------------------------------------
+
+    cout << "Ingrese el pedido para Franela:" << endl;
+
+    cout << "Polos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CFranela Fpolos(cantidad,kgPrenda);
+
+    cout << "Camisas:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CFranela Fcamisas(cantidad,kgPrenda);
+
+    cout << "Cuellos:" << endl;
+    cout << "Cantidad (unidades)==> "; cin >> cantidad;
+    cout << "Kg/Prenda ==> "; cin >> kgPrenda;
+
+    CFranela Fcuellos(cantidad,kgPrenda);
 
 
     float pedido[3][3];
@@ -446,26 +433,11 @@ int main() {
     float ANALISIS_MateriaPrima[3];
     float ANALISIS_Ganancias[3];
 
-    ingresar_pedidos(pedido, tipo_prenda, tipo_pedido, Kg_PRENDAS);
-    visualizar_pedido(pedido, tipo_prenda, tipo_pedido);
     calculo_tiempos(pedido,velocidad, tipo_pedido, ANALISIS_Tiempo);
     calculo_materia_prima(Kg_PRENDAS, Kg_Hilos, ANALISIS_MateriaPrima);
     calculo_costos(pedido,Kg_PRENDAS, Kg_Hilos, ANALISIS_Ganancias);
 
     ANALISIS(tipo_pedido, ANALISIS_Tiempo,ANALISIS_MateriaPrima,ANALISIS_Ganancias);
-
-    //IMPRIMIR VISUALIZACION DEL PEDIDO COMO MATRIZ
-    // for (int i = 0; i < 3; ++i) {
-    //for (int j = 0; j < 3; ++j) {
-    //cout<<setw(3)<<pedido[i][j]<<setw(3);}
-    //cout<<endl;}
-
-    //        Polos      Camisas      Cuellos
-    //Jersey   0,0        0,1            0,2
-    //Pique    1,0        1,1            1,2
-    //Franela  2,0        2,1            2,2
-
-
 
     return 0;
 }
