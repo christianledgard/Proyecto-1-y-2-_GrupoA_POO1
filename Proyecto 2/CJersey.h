@@ -5,13 +5,16 @@
 #ifndef PY01_CJERSEY_H
 #define PY01_CJERSEY_H
 
+
+
 class CJersey{
 
-    int cantidad;
+    unsigned int cantidad;
     float kgPrenda;
 
 
-
+    void setCantidad(int);
+    void setKgPrenda(float);
 
 
 
