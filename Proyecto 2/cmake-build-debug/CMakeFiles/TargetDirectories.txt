@@ -1,3 +1,3 @@
-/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/untitled.dir

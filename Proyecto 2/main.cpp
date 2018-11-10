@@ -27,6 +27,7 @@ void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedid
             cin >> cantidad;
             cout << "Kg/Prenda==> ";
             cin >> kg_prenda;
+
             Kg_PRENDAS[j]+=kg_prenda;
 
             cout << "\n";
