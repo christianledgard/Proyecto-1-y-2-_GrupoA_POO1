@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/main.cpp
-iostream
--
-string
--
-iomanip
--
-ctime
--
-string
--
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp
+CJersey.h
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.h
+
+/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.h
 

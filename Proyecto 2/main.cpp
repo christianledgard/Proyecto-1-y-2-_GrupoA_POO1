@@ -4,9 +4,8 @@
 #include <ctime>
 #include <string>
 
+
 using namespace std;
-
-
 
 void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3], float Kg_PRENDAS[3]){
 
@@ -189,7 +188,6 @@ void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pe
 
 }
 
-
 void calculo_materia_prima(float Kg_PRENDAS[3], float Kg_Hilos[3], float ANALISIS_MateriaPrima[3]){
     float hilo_jersey;
     float hilo_pique;
@@ -212,7 +210,6 @@ void calculo_materia_prima(float Kg_PRENDAS[3], float Kg_Hilos[3], float ANALISI
     ANALISIS_MateriaPrima[2]=hilo_franela;
 
 }
-
 
 void calculo_costos(float pedido[3][3], float Kg_PRENDAS[3], float Kg_Hilos[3], float ANALISIS_Ganancias[3]){
     //Precios de Venta - Costos de Produccion

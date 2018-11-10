@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/main.cpp" "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp" "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/untitled.dir/CJersey.cpp.o"
+  "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/main.cpp" "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

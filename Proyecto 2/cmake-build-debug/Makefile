@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01
+CMAKE_SOURCE_DIR = "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/cmake-build-debug/CMakeFiles /Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/py01/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+CJersey.o: CJersey.cpp.o
+
+.PHONY : CJersey.o
+
+# target to build an object file
+CJersey.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.o
+.PHONY : CJersey.cpp.o
+
+CJersey.i: CJersey.cpp.i
+
+.PHONY : CJersey.i
+
+# target to preprocess a source file
+CJersey.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.i
+.PHONY : CJersey.cpp.i
+
+CJersey.s: CJersey.cpp.s
+
+.PHONY : CJersey.s
+
+# target to generate assembly for a file
+CJersey.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.s
+.PHONY : CJersey.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
+	@echo "... CJersey.o"
+	@echo "... CJersey.i"
+	@echo "... CJersey.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
