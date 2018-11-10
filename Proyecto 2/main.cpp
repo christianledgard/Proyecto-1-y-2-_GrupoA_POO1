@@ -4,12 +4,21 @@
 #include <ctime>
 #include <string>
 
+#include "CJersey.h"
 
 using namespace std;
 
 void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3], float Kg_PRENDAS[3]){
 
     cout << "---- Ingrese su pedido a continuación: ----" << endl;
+
+    cout << "Ingrese el pedido para Jersey:" << endl;
+
+    cout << "Polos:" << endl;
+    cout << "Cantidad (unidades)==> ";
+    cout << "Kg/Prenda ==> ";
+
+
 
     int cantidad; float kg_prenda, kg_jersey=0, kg_pique=0, kg_franela=0;
 
@@ -370,6 +379,8 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 
 
 int main() {
+
+
 
     float pedido[3][3];
 
