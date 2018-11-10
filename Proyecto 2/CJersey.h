@@ -12,7 +12,7 @@ class CJersey{
     unsigned int cantidad;
     float kgPrenda;
 
-    CJersey(unsigned int _cantidad, float _kgPrenda);
+    CJersey(unsigned int, float);
 
     void setCantidad(unsigned int);
     void setKgPrenda(float);
