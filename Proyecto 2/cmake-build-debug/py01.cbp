@@ -8,100 +8,100 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
+				<Option working_dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
+				<Option working_dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
+				<Option working_dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
+				<Option output="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
+				<Option output="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CFranela.cpp">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CFranela.h">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CJersey.cpp">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CJersey.h">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CPique.cpp">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CPique.h">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/main.cpp">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/CMakeLists.txt">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
