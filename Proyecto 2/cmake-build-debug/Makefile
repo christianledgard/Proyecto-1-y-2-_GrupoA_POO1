@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2"
+CMAKE_SOURCE_DIR = "/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" "/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carlosreategui/Documents/GitHub/Proyecto-1-y-2-_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ untitled: cmake_check_build_system
 untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
+
+CFranela.o: CFranela.cpp.o
+
+.PHONY : CFranela.o
+
+# target to build an object file
+CFranela.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.o
+.PHONY : CFranela.cpp.o
+
+CFranela.i: CFranela.cpp.i
+
+.PHONY : CFranela.i
+
+# target to preprocess a source file
+CFranela.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.i
+.PHONY : CFranela.cpp.i
+
+CFranela.s: CFranela.cpp.s
+
+.PHONY : CFranela.s
+
+# target to generate assembly for a file
+CFranela.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.s
+.PHONY : CFranela.cpp.s
 
 CJersey.o: CJersey.cpp.o
 
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
+	@echo "... CFranela.o"
+	@echo "... CFranela.i"
+	@echo "... CFranela.s"
 	@echo "... CJersey.o"
 	@echo "... CJersey.i"
 	@echo "... CJersey.s"

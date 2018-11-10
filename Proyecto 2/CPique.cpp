@@ -10,6 +10,7 @@ CPique::CPique(unsigned int _cantidad, float _kgPrenda)
     kgPrenda = _kgPrenda;
 }
 
+CPique::~CPique() = default;
 
 void CPique::setCantidad(unsigned int _cantidad)
 {

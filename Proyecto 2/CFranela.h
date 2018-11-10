@@ -1,28 +1,25 @@
 //
-// Created by Christian Ledgard on 11/10/18.
+// Created by Carlos Reátegui on 11/10/18.
 //
 
-#ifndef PY01_CJERSEY_H
-#define PY01_CJERSEY_H
+#ifndef PY01_CFRANELA_H
+#define PY01_CFRANELA_H
 
 
-
-class CJersey{
+class CFranela
+{
 private:
     unsigned int cantidad;
     float kgPrenda;
 public:
-    CJersey(unsigned int, float);
-    ~CJersey();
+    CFranela(unsigned int, float);
+    ~CFranela();
 
     void setCantidad(unsigned int);
     void setKgPrenda(float);
 
     unsigned int getCantidad();
     float getKgPrenda();
-
-
-
 };
 
-#endif //PY01_CJERSEY_H
+#endif //PY01_CFRANELA_H
