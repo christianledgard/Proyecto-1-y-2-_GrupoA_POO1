@@ -80,22 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.cpp">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPrendas.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.h">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.h">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.h">
+		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPrendas.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/main.cpp">

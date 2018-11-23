@@ -70,62 +70,32 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/main.cpp" -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/CJersey.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/CJersey.cpp.o: ../CJersey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/CJersey.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CJersey.cpp.o -c "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp"
+CMakeFiles/untitled.dir/CPrendas.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/CPrendas.cpp.o: ../CPrendas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/CPrendas.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CPrendas.cpp.o -c "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPrendas.cpp"
 
-CMakeFiles/untitled.dir/CJersey.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CJersey.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp" > CMakeFiles/untitled.dir/CJersey.cpp.i
+CMakeFiles/untitled.dir/CPrendas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CPrendas.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPrendas.cpp" > CMakeFiles/untitled.dir/CPrendas.cpp.i
 
-CMakeFiles/untitled.dir/CJersey.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CJersey.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CJersey.cpp" -o CMakeFiles/untitled.dir/CJersey.cpp.s
-
-CMakeFiles/untitled.dir/CPique.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/CPique.cpp.o: ../CPique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/CPique.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CPique.cpp.o -c "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.cpp"
-
-CMakeFiles/untitled.dir/CPique.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CPique.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.cpp" > CMakeFiles/untitled.dir/CPique.cpp.i
-
-CMakeFiles/untitled.dir/CPique.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CPique.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPique.cpp" -o CMakeFiles/untitled.dir/CPique.cpp.s
-
-CMakeFiles/untitled.dir/CFranela.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/CFranela.cpp.o: ../CFranela.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/CFranela.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CFranela.cpp.o -c "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.cpp"
-
-CMakeFiles/untitled.dir/CFranela.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CFranela.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.cpp" > CMakeFiles/untitled.dir/CFranela.cpp.i
-
-CMakeFiles/untitled.dir/CFranela.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CFranela.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CFranela.cpp" -o CMakeFiles/untitled.dir/CFranela.cpp.s
+CMakeFiles/untitled.dir/CPrendas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CPrendas.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/CPrendas.cpp" -o CMakeFiles/untitled.dir/CPrendas.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/CJersey.cpp.o" \
-"CMakeFiles/untitled.dir/CPique.cpp.o" \
-"CMakeFiles/untitled.dir/CFranela.cpp.o"
+"CMakeFiles/untitled.dir/CPrendas.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/CJersey.cpp.o
-untitled: CMakeFiles/untitled.dir/CPique.cpp.o
-untitled: CMakeFiles/untitled.dir/CFranela.cpp.o
+untitled: CMakeFiles/untitled.dir/CPrendas.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

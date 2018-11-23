@@ -123,86 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-CFranela.o: CFranela.cpp.o
+CPrendas.o: CPrendas.cpp.o
 
-.PHONY : CFranela.o
-
-# target to build an object file
-CFranela.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.o
-.PHONY : CFranela.cpp.o
-
-CFranela.i: CFranela.cpp.i
-
-.PHONY : CFranela.i
-
-# target to preprocess a source file
-CFranela.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.i
-.PHONY : CFranela.cpp.i
-
-CFranela.s: CFranela.cpp.s
-
-.PHONY : CFranela.s
-
-# target to generate assembly for a file
-CFranela.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CFranela.cpp.s
-.PHONY : CFranela.cpp.s
-
-CJersey.o: CJersey.cpp.o
-
-.PHONY : CJersey.o
+.PHONY : CPrendas.o
 
 # target to build an object file
-CJersey.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.o
-.PHONY : CJersey.cpp.o
+CPrendas.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPrendas.cpp.o
+.PHONY : CPrendas.cpp.o
 
-CJersey.i: CJersey.cpp.i
+CPrendas.i: CPrendas.cpp.i
 
-.PHONY : CJersey.i
-
-# target to preprocess a source file
-CJersey.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.i
-.PHONY : CJersey.cpp.i
-
-CJersey.s: CJersey.cpp.s
-
-.PHONY : CJersey.s
-
-# target to generate assembly for a file
-CJersey.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CJersey.cpp.s
-.PHONY : CJersey.cpp.s
-
-CPique.o: CPique.cpp.o
-
-.PHONY : CPique.o
-
-# target to build an object file
-CPique.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPique.cpp.o
-.PHONY : CPique.cpp.o
-
-CPique.i: CPique.cpp.i
-
-.PHONY : CPique.i
+.PHONY : CPrendas.i
 
 # target to preprocess a source file
-CPique.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPique.cpp.i
-.PHONY : CPique.cpp.i
+CPrendas.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPrendas.cpp.i
+.PHONY : CPrendas.cpp.i
 
-CPique.s: CPique.cpp.s
+CPrendas.s: CPrendas.cpp.s
 
-.PHONY : CPique.s
+.PHONY : CPrendas.s
 
 # target to generate assembly for a file
-CPique.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPique.cpp.s
-.PHONY : CPique.cpp.s
+CPrendas.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CPrendas.cpp.s
+.PHONY : CPrendas.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... CFranela.o"
-	@echo "... CFranela.i"
-	@echo "... CFranela.s"
-	@echo "... CJersey.o"
-	@echo "... CJersey.i"
-	@echo "... CJersey.s"
-	@echo "... CPique.o"
-	@echo "... CPique.i"
-	@echo "... CPique.s"
+	@echo "... CPrendas.o"
+	@echo "... CPrendas.i"
+	@echo "... CPrendas.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,60 +4,12 @@
 #include <ctime>
 #include <string>
 
+#include "CPrendas.h"
+
 using namespace std;
 
 
 
-void ingresar_pedidos(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3], float Kg_PRENDAS[3]){
-
-    cout << "---- Ingrese su pedido a continuación: ----" << endl;
-
-    int cantidad; float kg_prenda, kg_jersey=0, kg_pique=0, kg_franela=0;
-
-    for (int i = 0; i < 3 ; ++i) {
-
-        cout << "Ingrese el pedido para " << tipo_pedido[i] << ":" << endl;
-        cout << "\n";
-
-
-        for (int j = 0; j < 3; ++j) {
-
-            cout << tipo_prenda[j] << ":" << endl;
-            cout << "\n";
-            cout << "Cantidad (unidades)==> ";
-            cin >> cantidad;
-            cout << "Kg/Prenda==> ";
-            cin >> kg_prenda;
-            Kg_PRENDAS[j]+=kg_prenda;
-
-            cout << "\n";
-
-            pedido[i][j] = cantidad * kg_prenda;
-
-        }
-    }
-
-
-}
-
-void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3]){
-
-    for (int i = 0; i < 3; ++i) {
-
-        cout << "--- " << tipo_pedido[i] << " ---" << endl;
-
-        for (int j = 0; j < 3; ++j) {
-
-            cout << tipo_prenda[j] << ": ";
-            cout << setw(5) <<"[" << pedido[i][j] << "]" << endl;
-
-        }
-
-        cout << "\n";
-    }
-
-
-}
 
 int dias_en_mes(int mes, int anno){
 
@@ -142,6 +94,7 @@ string dia_a_fecha(int dias_a_sumar) {
     return resultado;
 }
 
+/*
 void calculo_tiempos(float pedido[3][3], float velocidad[3][3][4],string tipo_pedido[3],float ANALISIS_Tiempo[3]){
 
     float tiempo_total = 0,temporal1, suma = 0;
@@ -369,10 +322,24 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
     }
 
 }
-
+*/
 
 int main() {
 
+    Prendas **array[3][3];
+
+    *array[0][0] = new Polo(); //Jersey
+    *array[0][1] = new Polo(); //Pique
+    *array[0][2] = new Polo(); //Franela
+    *array[1][0] = new Camisa(); //Jersey
+    *array[1][1] = new Camisa(); //Pique
+    *array[1][2] = new Camisa(); //Franela
+    *array[2][0] = new Cuellos(); //Jersey
+    *array[2][1] = new Cuellos(); //Pique
+    *array[2][2] = new Cuellos(); //Franela
+
+
+/*
     float pedido[3][3];
 
     string tipo_prenda[3] = {"Polo", "Camisa", "Cuellos"};
@@ -432,6 +399,6 @@ int main() {
     //Franela  2,0        2,1            2,2
 
 
-
+*/
     return 0;
 }
