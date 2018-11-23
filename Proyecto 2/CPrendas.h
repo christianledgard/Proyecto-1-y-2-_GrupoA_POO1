@@ -15,6 +15,14 @@ protected:
 public:
     Prendas(float Cantidad, float Kg_Prenda);
     virtual ~Prendas();
+
+    virtual float pedido();
+
+    virtual float getCantidad() const;
+    virtual void setCantidad(float Cantidad);
+
+    virtual float getKg_Prenda() const;
+    virtual void setKg_Prenda(float Kg_Prenda);
 };
 
 class Polo : public Prendas
@@ -42,7 +50,6 @@ public:
     Camisa();
     ~Camisa();
 
-
 };
 
 class Cuellos:public Prendas
@@ -56,8 +63,7 @@ private:
 public:
     Cuellos();
     ~Cuellos();
-
-
 };
+
 
 #endif //PY01_CPRENDAS_H

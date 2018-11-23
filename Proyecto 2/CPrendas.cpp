@@ -6,24 +6,50 @@
 
 
 Prendas::Prendas(float Cantidad, float Kg_Prenda):Cantidad(Cantidad),Kg_Prenda(Kg_Prenda){}
-Prendas::~Prendas(){};
+Prendas::~Prendas(){}
+
+float Prendas::pedido() {
+    return Cantidad*Kg_Prenda;
+}
+
+float Prendas::getCantidad() const {
+    return Cantidad;
+}
+
+void Prendas::setCantidad(float Cantidad) {
+    Prendas::Cantidad = Cantidad;
+}
+
+float Prendas::getKg_Prenda() const {
+    return Kg_Prenda;
+}
+
+void Prendas::setKg_Prenda(float Kg_Prenda) {
+    Prendas::Kg_Prenda = Kg_Prenda;
+};
 
 
 Polo::Polo() : Prendas(Cantidad, Kg_Prenda){
 
-    cout<< "Ingrese la cantidad: "; cin >> Cantidad;
-    cout<< "Ingrese la KG PRENDa: "; cin >> Kg_Prenda;
-
-
+    cout<< "Ingrese la Cantidad: "; cin >> Cantidad;
+    cout<< "Ingrese la KG Prenda: "; cin >> Kg_Prenda;
 
 }
 Polo::~Polo() = default;
 
-/*
-Camisa::Camisa(float _cantidad, float _kg_prenda) : Prendas(_cantidad, _kg_prenda){}
+
+Camisa::Camisa() : Prendas(Cantidad, Kg_Prenda){
+    cout<< "Ingrese la Cantidad: "; cin >> Cantidad;
+    cout<< "Ingrese la KG Prenda: "; cin >> Kg_Prenda;
+
+}
 Camisa::~Camisa() = default;
 
+Cuellos::Cuellos() : Prendas(Cantidad, Kg_Prenda){
 
-Cuellos::Cuellos(float _cantidad, float _kg_prenda) : Prendas(_cantidad, _kg_prenda){}
+    cout<< "Ingrese la Cantidad: "; cin >> Cantidad;
+    cout<< "Ingrese la KG Prenda: "; cin >> Kg_Prenda;
+
+}
 Cuellos::~Cuellos() = default;
-*/
+

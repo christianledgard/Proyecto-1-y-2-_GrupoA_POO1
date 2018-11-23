@@ -324,19 +324,40 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 }
 */
 
+
 int main() {
 
-    Prendas **array[3][3];
+    Prendas *array[9];
 
-    *array[0][0] = new Polo(); //Jersey
-    *array[0][1] = new Polo(); //Pique
-    *array[0][2] = new Polo(); //Franela
-    *array[1][0] = new Camisa(); //Jersey
-    *array[1][1] = new Camisa(); //Pique
-    *array[1][2] = new Camisa(); //Franela
-    *array[2][0] = new Cuellos(); //Jersey
-    *array[2][1] = new Cuellos(); //Pique
-    *array[2][2] = new Cuellos(); //Franela
+    cout << "Pedido de POLOS: "<< endl << endl;
+    cout << "-- Jersey -- " << endl;
+    array[0] = new Polo(); //Jersey
+    cout << "-- Pique -- " << endl;
+    array[1] = new Polo(); //Pique
+    cout << "-- Franela -- " << endl;
+    array[2] = new Polo(); //Franela
+
+    cout << "\n\n";
+    cout << "Pedido de CAMISA: "<< endl << endl;
+    cout << "-- Jersey -- " << endl;
+    array[3] = new Camisa(); //Jersey
+    cout << "-- Pique -- " << endl;
+    array[4] = new Camisa(); //Pique
+    cout << "-- Franela -- " << endl;
+    array[5] = new Camisa(); //Franela
+
+    cout << "\n\n";
+    cout << "Pedido de CUELLOS: "<< endl << endl;
+    cout << "-- Jersey -- " << endl;
+    array[6] = new Cuellos(); //Jersey
+    cout << "-- Pique -- " << endl;
+    array[7] = new Cuellos(); //Pique
+    cout << "-- Franela -- " << endl;
+    array[8] = new Cuellos(); //Franela
+
+
+
+
 
 
 /*
