@@ -326,8 +326,9 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 */
 
 
-void inicializar(float Kg_PRENDAS[3])
+void inicializar(float pedido[3][3], float Kg_PRENDAS[3])
 {
+    /*
     Prendas *array[9];
     int contador = 0;
 
@@ -359,6 +360,41 @@ void inicializar(float Kg_PRENDAS[3])
         array[contador] = new Cuellos();
         Kg_PRENDAS[contador2] += array[contador]->getKg_Prenda();
         contador++;
+        */
+
+    Prendas *array[9];
+    int contador = 0;
+
+    cout << "---- Ingrese su pedido a continuación: ----" << endl;
+
+    for (int i = 0; i < 3; i++) {
+
+        cout << "Ingrese el pedido para " << tipo_pedido[i] << ":" << endl;
+        cout << "\n";
+
+        for(int j = 0; j < 3; j++)
+        {
+            cout << tipo_prenda[j] << ":" << endl;
+            switch(j)
+            {
+                case 0:
+                    array[contador] = new Polo();
+                    Kg_PRENDAS[j] = array[contador]->getKg_Prenda();
+                    pedido[i][j] = array[contador]->getCantidad() * array[contador]->getKg_Prenda();
+                    break;
+                case 1:
+                    array[contador] = new Camisa();
+                    Kg_PRENDAS[j] = array[contador]->getKg_Prenda();
+                    pedido[i][j] = array[contador]->getCantidad() * array[contador]->getKg_Prenda();
+                    break;
+                case 2:
+                    array[contador] = new Cuellos();
+                    Kg_PRENDAS[j] = array[contador]->getKg_Prenda();
+                    pedido[i][j] = array[contador]->getCantidad() * array[contador]->getKg_Prenda();
+                    break;
+            }
+            contador += 1;
+        }
 
     }
 
