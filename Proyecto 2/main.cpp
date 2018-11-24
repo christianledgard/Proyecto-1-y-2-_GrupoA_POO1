@@ -8,7 +8,8 @@
 
 using namespace std;
 
-
+string tipo_prenda[3] = {"Polo", "Camisa", "Cuellos"};
+string tipo_pedido[3] = {"Jersy", "Pique", "Franela"};
 
 
 int dias_en_mes(int mes, int anno){
@@ -325,10 +326,42 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 */
 
 
-int main() {
-
+void inicializar(float Kg_PRENDAS[3])
+{
     Prendas *array[9];
+    int contador = 0;
 
+    cout << "---- Ingrese su pedido a continuación: ----" << endl;
+
+    for (int i = 0; i < 3; i++) {
+
+        cout << "Ingrese el pedido para " << tipo_pedido[i] << ":" << endl;
+        cout << "\n";
+
+        int contador2 = 0;
+
+        cout << tipo_prenda[contador2] << ":" << endl;
+        cout << "\n";
+        array[contador] = new Polo();
+        Kg_PRENDAS[contador2] += array[contador]->getKg_Prenda();
+        contador++;
+        contador2++;
+
+        cout << tipo_prenda[contador2] << ":" << endl;
+        cout << "\n";
+        array[contador] = new Camisa();
+        Kg_PRENDAS[contador2] +=
+        contador++;
+        contador2++;
+
+        cout << tipo_prenda[contador2] << ":" << endl;
+        cout << "\n";
+        array[contador] = new Cuellos();
+        contador++;
+
+    }
+
+/*
     cout << "Pedido de POLOS: "<< endl << endl;
     cout << "-- Jersey -- " << endl;
     array[0] = new Polo(); //Jersey
@@ -354,11 +387,18 @@ int main() {
     array[7] = new Cuellos(); //Pique
     cout << "-- Franela -- " << endl;
     array[8] = new Cuellos(); //Franela
+*/
 
 
+}
 
 
+int main() {
 
+
+    float Kg_PRENDAS[3]={0,0,0};
+
+    inicializar(Kg_PRENDAS);
 
 /*
     float pedido[3][3];
