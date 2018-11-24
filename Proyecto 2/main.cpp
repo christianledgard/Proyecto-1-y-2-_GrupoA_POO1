@@ -350,13 +350,14 @@ void inicializar(float Kg_PRENDAS[3])
         cout << tipo_prenda[contador2] << ":" << endl;
         cout << "\n";
         array[contador] = new Camisa();
-        Kg_PRENDAS[contador2] +=
+        Kg_PRENDAS[contador2] += array[contador]->getKg_Prenda();
         contador++;
         contador2++;
 
         cout << tipo_prenda[contador2] << ":" << endl;
         cout << "\n";
         array[contador] = new Cuellos();
+        Kg_PRENDAS[contador2] += array[contador]->getKg_Prenda();
         contador++;
 
     }
