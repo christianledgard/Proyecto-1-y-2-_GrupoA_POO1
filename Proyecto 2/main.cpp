@@ -52,7 +52,25 @@ void inicializar(float pedido[3][3], float Kg_PRENDAS[3])
     }
 }
 
-void calculo_tiempos();
+
+void calculo_tiempos(float pedido[3][3], string tipo_pedido[3]){
+
+    float tiempo_total = 0,temporal1, suma = 0;
+    float tiempos_pedido[3];
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            tiempos_pedido[i] = pedido[i][j] /
+        }
+    }
+
+    cout << "El tiempo de espera total es : " << tiempo_total << " horas." << endl;
+    cout << "\n";
+
+}
+
 
 void calculo_materia_prima(float Kg_PRENDAS[3])
 {
