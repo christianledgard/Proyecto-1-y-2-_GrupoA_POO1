@@ -65,5 +65,4 @@ public:
     ~Cuellos();
 };
 
-
 #endif //PY01_CPRENDAS_H
