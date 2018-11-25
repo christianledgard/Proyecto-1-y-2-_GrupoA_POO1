@@ -36,7 +36,7 @@ Polo::Polo() : Prendas(Cantidad, Kg_Prenda){
     cout << endl;
 
 }
-Polo::~Polo() = default;
+Polo::~Polo() = default; 
 
 
 Camisa::Camisa() : Prendas(Cantidad, Kg_Prenda){
