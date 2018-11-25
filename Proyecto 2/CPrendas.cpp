@@ -36,7 +36,7 @@ Polo::Polo() : Prendas(Cantidad, Kg_Prenda){
     cout << endl;
 
 }
-Polo::~Polo() = default; 
+Polo::~Polo() = default;
 
 
 Camisa::Camisa() : Prendas(Cantidad, Kg_Prenda){
@@ -54,3 +54,49 @@ Cuellos::Cuellos() : Prendas(Cantidad, Kg_Prenda){
 
 }
 Cuellos::~Cuellos() = default;
+
+float Polo::calculo_tiempos(float pedido[3][3])
+{
+    //Polo en pedido[i][0]
+
+    float tiempo_polo = 0;
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+            tiempo_polo += pedido[i][0] / Velocidad[i][j];
+    }
+
+    return tiempo_polo;
+}
+
+
+float Camisa::calculo_tiempos(float pedido[3][3])
+{
+    float tiempo_camisa = 0;
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+
+            tiempo_camisa += pedido[i][1] / Velocidad[i][j];
+    }
+
+    return tiempo_camisa;
+}
+
+
+float Cuellos::calculo_tiempos(float pedido[3][3])
+{
+    float tiempo_cuellos = 0;
+
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+        {
+            tiempo_cuellos += pedido[i][2] / Velocidad[i][j];
+        }
+    }
+
+    return tiempo_cuellos;
+}
