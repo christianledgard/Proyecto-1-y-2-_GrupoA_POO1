@@ -52,23 +52,21 @@ void inicializar(float pedido[3][3], float Kg_PRENDAS[3])
     }
 }
 
+void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedido[3]){
 
-void calculo_tiempos(float pedido[3][3], string tipo_pedido[3]){
+    for (int i = 0; i < 3; ++i) {
 
-    float tiempo_total = 0,temporal1, suma = 0;
-    float tiempos_pedido[3];
+        cout << "--- " << tipo_pedido[i] << " ---" << endl;
 
-    for(int i = 0; i < 3; i++)
-    {
-        for(int j = 0; j < 3; j++)
-        {
-            tiempos_pedido[i] = pedido[i][j] /
+        for (int j = 0; j < 3; ++j) {
+
+            cout << tipo_prenda[j] << ": ";
+            cout << setw(5) <<"[" << pedido[i][j] << "]" << endl;
+
         }
+
+        cout << "\n";
     }
-
-    cout << "El tiempo de espera total es : " << tiempo_total << " horas." << endl;
-    cout << "\n";
-
 }
 
 
@@ -94,6 +92,7 @@ int main() {
     float pedido[3][3];
 
     inicializar(pedido, Kg_PRENDAS);
+    visualizar_pedido(pedido, tipo_prenda, tipo_pedido);
     calculo_materia_prima(Kg_PRENDAS);
 
     return 0;
