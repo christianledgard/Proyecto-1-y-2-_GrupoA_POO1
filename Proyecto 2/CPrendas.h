@@ -27,7 +27,7 @@ public:
 
 class Polo : public Prendas
 {
-private:
+public:
     const float  Velocidad[3][4]{
             {1,10,20,0.2},//Jersey
             {1,10,20,0.22},//Pique
