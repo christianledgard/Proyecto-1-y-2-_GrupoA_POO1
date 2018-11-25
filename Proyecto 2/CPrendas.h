@@ -36,7 +36,7 @@ public:
             {1, 10, 20, 0.25}}; //Franela
 public:
 
-    Polo();
+    Polo(float, float);
     virtual ~Polo();
 
     float calculo_tiempos(float pedido[3][3]) override;
@@ -51,7 +51,7 @@ private:
             {1, 10, 20, 0.50},//Franela
     };
 public:
-    Camisa();
+    Camisa(float, float);
     virtual ~Camisa();
 
     float calculo_tiempos(float pedido[3][3]) override;
@@ -66,7 +66,7 @@ private:
             {1, 10, 20, 0.50},//Franela
     };
 public:
-    Cuellos();
+    Cuellos(float, float);
     virtual ~Cuellos();
 
     float calculo_tiempos(float pedido[3][3]) override;
