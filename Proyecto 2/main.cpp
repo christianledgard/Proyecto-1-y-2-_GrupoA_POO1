@@ -11,10 +11,9 @@ using namespace std;
 string tipo_prenda[3] = {"Polo", "Camisa", "Cuellos"};
 string tipo_pedido[3] = {"Jersy", "Pique", "Franela"};
 
-void inicializar(float pedido[3][3], float Kg_PRENDAS[3])
+void inicializar(float pedido[3][3], float Kg_PRENDAS[3], Prendas *array[9])
 {
 
-    Prendas *array[9];
     int contador = 0;
 
     cout << "---- Ingrese su pedido a continuación: ----" << endl;
@@ -70,11 +69,13 @@ void visualizar_pedido(float pedido[3][3],string tipo_prenda[3],string tipo_pedi
 }
 
 
-void calculo_materia_prima(float Kg_PRENDAS[3])
+
+
+void calculo_materia_prima(const float Kg_PRENDAS[3])
 {
-    float hilo_jersey;
-    float hilo_pique;
-    float hilo_franela;
+    double hilo_jersey;
+    double hilo_pique;
+    double hilo_franela;
 
     hilo_jersey = Kg_PRENDAS[0] / 0.7;
     hilo_pique = Kg_PRENDAS[1] / 0.5;
@@ -87,13 +88,21 @@ void calculo_materia_prima(float Kg_PRENDAS[3])
 
 int main() {
 
-
+    Prendas *array[9];
     float Kg_PRENDAS[3]={0,0,0};
     float pedido[3][3];
+    float tiempo_total = 0;
 
-    inicializar(pedido, Kg_PRENDAS);
+    inicializar(pedido, Kg_PRENDAS, array);
     visualizar_pedido(pedido, tipo_prenda, tipo_pedido);
     calculo_materia_prima(Kg_PRENDAS);
+
+    for(int i = 0; i < 3; i++)
+    {
+        tiempo_total += array[i]->calculo_tiempos(pedido);
+    }
+
+    cout << tiempo_total;
 
     return 0;
 }
