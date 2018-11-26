@@ -24,7 +24,7 @@ public:
     virtual float getKg_Prenda() const;
     virtual void setKg_Prenda(float Kg_Prenda);
 
-    virtual float calculo_tiempos(float pedido[3][3]) = 0;
+    virtual float calculo_tiempos(unsigned int x) = 0;
 };
 
 class Polo : public Prendas
@@ -39,7 +39,7 @@ public:
     Polo(float, float);
     virtual ~Polo();
 
-    float calculo_tiempos(float pedido[3][3]) override;
+    float calculo_tiempos(unsigned int) override;
 };
 
 class Camisa : public Prendas
@@ -54,7 +54,7 @@ public:
     Camisa(float, float);
     virtual ~Camisa();
 
-    float calculo_tiempos(float pedido[3][3]) override;
+    float calculo_tiempos(unsigned int) override;
 };
 
 class Cuellos:public Prendas
@@ -69,7 +69,7 @@ public:
     Cuellos(float, float);
     virtual ~Cuellos();
 
-    float calculo_tiempos(float pedido[3][3]) override;
+    float calculo_tiempos(unsigned int) override;
 };
 
 

@@ -52,48 +52,43 @@ Cuellos::Cuellos(float _cantidad, float _KGprendas) : Prendas(Cantidad, Kg_Prend
 }
 Cuellos::~Cuellos() = default;
 
-float Polo::calculo_tiempos(float pedido[3][3])
+float Polo::calculo_tiempos(unsigned int x)
 {
     //Polo en pedido[i][0]
 
     float tiempo_polo = 0;
 
-    for(int i = 0; i < 3; i++)
-    {
-        for(int j = 0; j < 4; j++)
-            tiempo_polo += pedido[i][0] / Velocidad[i][j];
-    }
+    for(int j = 0; j < 4; j++)
+        tiempo_polo += Cantidad * Kg_Prenda  / Velocidad[x][j];
 
     return tiempo_polo;
 }
 
 
-float Camisa::calculo_tiempos(float pedido[3][3])
+float Camisa::calculo_tiempos(unsigned int x)
 {
     float tiempo_camisa = 0;
 
-    for(int i = 0; i < 3; i++)
-    {
-        for(int j = 0; j < 4; j++)
 
-            tiempo_camisa += pedido[i][1] / Velocidad[i][j];
-    }
+    for(int j = 0; j < 4; j++)
+
+        tiempo_camisa += Cantidad * Kg_Prenda  / Velocidad[x][j];
+
 
     return tiempo_camisa;
 }
 
 
-float Cuellos::calculo_tiempos(float pedido[3][3])
+float Cuellos::calculo_tiempos(unsigned int x)
 {
     float tiempo_cuellos = 0;
 
-    for(int i = 0; i < 3; i++)
+
+    for(int j = 0; j < 4; j++)
     {
-        for(int j = 0; j < 4; j++)
-        {
-            tiempo_cuellos += pedido[i][2] / Velocidad[i][j];
-        }
+        tiempo_cuellos += Cantidad * Kg_Prenda  / Velocidad[x][j];;
     }
+
 
     return tiempo_cuellos;
 }
