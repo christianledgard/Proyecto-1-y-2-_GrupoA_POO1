@@ -12,11 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="724e365e-b3bf-473b-9198-a0bc42941c3c" name="Default Changelist" comment="Prueba 1">
-      <change afterPath="$PROJECT_DIR$/../Proyecto 2/inicio_costos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto 2/CPrendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 2/CPrendas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto 2/CPrendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 2/CPrendas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto 2/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 2/cmake-build-debug/untitled" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proyecto 2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 2/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -154,7 +149,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-31" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -242,7 +237,7 @@
       <workItem from="1542125046846" duration="899000" />
       <workItem from="1542138750586" duration="293000" />
       <workItem from="1542992729089" duration="9000" />
-      <workItem from="1543158112364" duration="3573000" />
+      <workItem from="1543158112364" duration="3741000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba 1">
       <created>1537311751554</created>
@@ -262,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21364000" />
+    <option name="totallyTimeSpent" value="21532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,7 +269,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="-31" y="23" width="1280" height="777" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17124394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

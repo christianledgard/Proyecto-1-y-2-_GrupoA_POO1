@@ -273,7 +273,7 @@ void calculo_costos(float pedido[3][3], float Kg_PRENDAS[3], float Kg_Hilos[3], 
 
     float Costo_Total=0, Ingreso_Total=0;
     float Ingreso_Jersey=0, Ingreso_Pique=0, Ingreso_Franela=0;
-    float Costo_Jersey, Costo_Pique, Costo_Franela;
+    float Costo_Jersey =0, Costo_Pique =0, Costo_Franela =0;
 
 
     for (int k = 0; k < 3; ++k) {
@@ -342,7 +342,7 @@ void calculo_costos(float pedido[3][3], float Kg_PRENDAS[3], float Kg_Hilos[3], 
     //Franela  2,0        2,1            2,2
 }
 
-void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float Ganancias[3]){
+void ANALISIS_print_consola(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float Ganancias[3]){
 
     cout << "//////////////////////////////////////////////////////////////////////" << endl;
     cout << "\n";
@@ -417,6 +417,84 @@ void ANALISIS(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float
 
 }
 
+void ANALISIS_print_txt(string TipoPedido[3],float Tiempo[3], float MateriaPrima[3], float Ganancias[3]){
+
+    ofstream myfile;
+    myfile.open ("/Users/christianledgard/Documents/GitHub/Proyecto1_GrupoA_POO1/Proyecto 2/pedido.txt");
+
+    myfile << "\n";
+    myfile << "-------- Inicio del Analisis ----------" << endl;
+    myfile << "\n";
+
+    myfile << "La fabrica se va a demorar:" << endl;
+    myfile << "\n";
+
+    myfile <<  "Tipo Pedido" << setw(15)<< "Tiempo" << setw(20) << "Ganancia" << setw(25) << "Ganancia/Tiempo" << setw(25)<< "Materia Prima"<< endl;
+
+    for (int i = 0; i < 3; ++i) {
+
+        myfile <<  TipoPedido[i] << setw(15)<< fixed << setprecision(0) << Tiempo[i]<< " dias"<< setw(15) << "S/"<< fixed << setprecision(2) << Ganancias[i] << setw(20) << fixed << setprecision(2) << Ganancias[i]/Tiempo[i] << setw(25) << fixed << setprecision(2) << MateriaPrima[i]<< "Kg"<< endl;
+
+    }
+
+    //CALCULO DE EFECTIVIDAD: GANANCIA ENTRE TIEMPO
+
+    myfile << "\n";
+    myfile << "\n";
+
+
+    float Eficiencia[3], OrdenRecomendado[3];
+    for (int j = 0; j < 3; ++j) {
+        Eficiencia[j] = Ganancias[j]/Tiempo[j];
+    }
+
+    float MAX = 0.0, MIN = INT8_MAX;
+
+    for(int k = 0; k < 3; ++k) {
+        if(Eficiencia[k]>MAX){
+            MAX=Eficiencia[k];
+            OrdenRecomendado[0]=k;
+        }
+    }
+
+    for(int k = 0; k < 3; ++k) {
+        if(Eficiencia[k]<MIN){
+            MIN=Eficiencia[k];
+            OrdenRecomendado[2]=k;
+        }
+    }
+
+    for (int l = 0; l < 3; ++l) {
+        if(Eficiencia[l]!=MAX and Eficiencia[l]!=MIN)
+            OrdenRecomendado[1]=l;
+    }
+
+    myfile << "El software recomienda priorizar las prendas por este orden: "<< endl;
+
+
+    for (int m = 0; m < 3; ++m) {
+
+        myfile << m+1 << ". " << TipoPedido[int(OrdenRecomendado[m])]<< endl;
+
+    }
+
+    myfile << "\n";
+    myfile << "-------- Cronograma de Produccion ----------" << endl;
+    myfile << "\n";
+
+    int tiempo_a_cuenta=0, dia_transcurrido=0;
+
+
+    for (int n = 0; n < 3; ++n) {
+
+        myfile << n+1 << ". "<< TipoPedido[int(OrdenRecomendado[n])] << " --- del "<< dia_a_fecha(tiempo_a_cuenta+dia_transcurrido) << " al " << dia_a_fecha((Tiempo[int(OrdenRecomendado[n])])+tiempo_a_cuenta+dia_transcurrido) << endl;
+        tiempo_a_cuenta += Tiempo[int(OrdenRecomendado[n])];
+        dia_transcurrido++;
+    }
+    myfile.close();
+
+}
+
 
 int main() {
 
@@ -437,7 +515,8 @@ int main() {
 
     calculo_costos(pedido,Kg_PRENDAS, Kg_Hilos, ANALISIS_Ganancias);
 
-    ANALISIS(tipo_pedido, ANALISIS_Tiempo,ANALISIS_MateriaPrima,ANALISIS_Ganancias);
+    ANALISIS_print_consola(tipo_pedido, ANALISIS_Tiempo,ANALISIS_MateriaPrima,ANALISIS_Ganancias);
+    ANALISIS_print_txt(tipo_pedido, ANALISIS_Tiempo,ANALISIS_MateriaPrima,ANALISIS_Ganancias);
 
 
 

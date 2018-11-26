@@ -1,0 +1,21 @@
+
+-------- Inicio del Analisis ----------
+
+La fabrica se va a demorar:
+
+Tipo Pedido         Tiempo            Ganancia          Ganancia/Tiempo            Materia Prima
+Jersy             21 dias             S/3110.00              148.10                     1.43Kg
+Pique             19 dias             S/7042.67              370.67                     4.00Kg
+Franela             52 dias             S/4200.00               80.77                     0.73Kg
+
+
+El software recomienda priorizar las prendas por este orden: 
+1. Pique
+2. Jersy
+3. Franela
+
+-------- Cronograma de Produccion ----------
+
+1. Pique --- del 25-11-2018 al 14-12-2018
+2. Jersy --- del 15-12-2018 al 5-1-2019
+3. Franela --- del 6-1-2019 al 27-2-2019
